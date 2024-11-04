@@ -1882,3 +1882,36 @@ class SpiderFootWebUi:
         retdata['data'] = datamap
 
         return retdata
+
+    @cherrypy.expose
+    @cherrypy.tools.json_out()
+    def modulesinfo(self: 'SpiderFootWebUi') -> dict:
+        """TEST"""
+
+        modules_data = []
+        modules_config = self.config.get('__modules__', {})
+
+        for module_name, module_info in modules_config.items():
+            # Skip internal or special modules if any
+            if module_name.startswith('__'):
+                continue
+
+            # Collect detailed module metadata
+            module_data = {
+                "name": module_name,
+                "description": module_info.get('descr', 'No description'),
+                "author": module_info.get('author', 'Unknown author'),
+                "version": module_info.get('version', 'Unknown version'),
+                "optdescs": module_info.get('optdescs', {}),
+                "opts": module_info.get('opts', {}),
+                "dependencies": module_info.get('dependencies', []),
+                "provides": module_info.get('provides', []),
+                "meta": module_info.get('meta',{})
+            }
+
+            modules_data.append(module_data)
+
+        return modules_data
+
+
+
