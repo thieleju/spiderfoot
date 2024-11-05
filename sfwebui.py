@@ -1900,7 +1900,6 @@ class SpiderFootWebUi:
             module_data = {
                 "name": module_name,
                 "description": module_info.get('descr', 'No description'),
-                "author": module_info.get('author', 'Unknown author'),
                 "optdescs": module_info.get('optdescs', {}),
                 "opts": module_info.get('opts', {}),
                 "dependencies": module_info.get('dependencies', []),
