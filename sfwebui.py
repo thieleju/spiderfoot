@@ -1901,7 +1901,6 @@ class SpiderFootWebUi:
                 "name": module_name,
                 "description": module_info.get('descr', 'No description'),
                 "author": module_info.get('author', 'Unknown author'),
-                "version": module_info.get('version', 'Unknown version'),
                 "optdescs": module_info.get('optdescs', {}),
                 "opts": module_info.get('opts', {}),
                 "dependencies": module_info.get('dependencies', []),
@@ -1910,8 +1909,12 @@ class SpiderFootWebUi:
             }
 
             modules_data.append(module_data)
+            
 
-        return modules_data
+        retdata = dict()
+        retdata["modules"] = modules_data
+
+        return retdata
 
 
 
