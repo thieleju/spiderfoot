@@ -27,7 +27,8 @@ class sfp_accounts(SpiderFootPlugin):
         'name': "Account Finder",
         'summary': "Look for possible associated accounts on over 500 social and other websites such as Instagram, Reddit, etc.",
         'useCases': ["Footprint", "Passive"],
-        'categories': ["Social Media"]
+        'categories': ["Social Media"],
+        "flags": ["errorprone","slow"]
     }
 
     # Default options
