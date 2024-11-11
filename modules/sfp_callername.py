@@ -31,8 +31,8 @@ class sfp_callername(SpiderFootPlugin):
                 "https://callername.com/faq",
                 "https://callername.com/stats"
             ],
-            'favIcon': "http://static.callername.com/favicon.ico",
-            'logo': "http://static.callername.com/img/logo.min.png",
+            'favIcon': "https://static.callername.com/favicon.ico",
+            'logo': "https://static.callername.com/img/logo.min.png",
             'description': "CallerName is a free, reverse phone lookup service for both cell and landline numbers. "
             "It relies on a database of white pages and business pages taken from public sources. "
             "The easy-to-use and streamlined interface allow users to look up the caller ID information of any number quickly. "

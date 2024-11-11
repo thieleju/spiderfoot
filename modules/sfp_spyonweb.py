@@ -39,8 +39,8 @@ class sfp_spyonweb(SpiderFootPlugin):
                 "Click on 'Dashboard'",
                 "The API key is listed under 'Access Token'"
             ],
-            'favIcon': "http://spyonweb.com/favicon.ico",
-            'logo': "http://spyonweb.com/favicon.ico",
+            'favIcon': "https://spyonweb.com/favicon.ico",
+            'logo': "https://spyonweb.com/favicon.ico",
             'description': "We take the information from public sources, then structure it for your quick and convenient search "
             "for the websites that probably belong to the same owner.",
         }

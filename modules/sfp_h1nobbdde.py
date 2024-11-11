@@ -29,8 +29,8 @@ class sfp_h1nobbdde(SpiderFootPlugin):
                 "http://www.nobbd.de/index.php#projekte",
                 "https://twitter.com/disclosedh1"
             ],
-            'favIcon': "http://www.nobbd.de/favicon.ico",
-            'logo': "http://www.nobbd.de/favicon.ico",
+            'favIcon': "https://www.nobbd.de/favicon.ico",
+            'logo': "https://www.nobbd.de/favicon.ico",
             'description': "Unofficial Bug Monitoring platform for HackerOne.",
         }
     }
