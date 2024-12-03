@@ -39,6 +39,8 @@ class SpiderFootCorrelator:
             "strict": ["method"],
             "optional": ["field", "maximum_percent", "noisy_percent", "minimum", "maximum", "must_be_unique", "match_method"]
         },
+        "category": {},
+        "subcategory":{},
         "headline": {},
         "id": {},
         "version": {},

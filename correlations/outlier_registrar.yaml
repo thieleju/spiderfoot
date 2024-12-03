@@ -1,14 +1,17 @@
 id: outlier_registrar
+category: Anomalies and Contextual Insights
+subcategory: Outliers
 version: 1
 meta:
   name: Outlier registrar
-  description: >
-    A registrar that appeared in 10% or less of the total registrars
-    found. Outliers can often reveal entities that are rare and
-    therefore interesting.
+  description:
+    "A registrar that appeared in 10% or less of the total registrars found.
+    Outliers can often reveal entities that are rare and therefore interesting.
 
-    Particularly in the case of registrars, an outlier may be an
-    indicator of Shadow IT or unmtaintained infrastructure.
+    Particularly in the case of registrars, an outlier may be an indicator of Shadow
+    IT or unmtaintained infrastructure.
+
+    "
   risk: MEDIUM
 collections:
   - collect:

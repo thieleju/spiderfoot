@@ -1,12 +1,13 @@
 id: cloud_bucket_open
+category: Infrastructure Risks
+subcategory: Cloud Risks
 version: 1
 meta:
   name: Cloud storage bucket open to the Internet
-  description: >
-    A cloud storage bucket (e.g. S3) referenced from the target
-    website has been found to be open to the Internet. Such
-    buckets should be restricted so that contents cannot be
-    listed, even if needing to be publicly accessible.
+  description:
+    "A cloud storage bucket (e.g. S3) referenced from the target website
+    has been found to be open to the Internet. Such buckets should be restricted so
+    that contents cannot be listed, even if needing to be publicly accessible."
   risk: HIGH
 collections:
   - collect:

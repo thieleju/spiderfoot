@@ -1,13 +1,15 @@
 id: cloud_bucket_open_related
+category: Infrastructure Risks
+subcategory: Cloud Risks
 version: 1
 meta:
   name: Possibly related cloud storage bucket open to the Internet
-  description: >
-    A cloud storage bucket (e.g. S3) potentially related to
-    the target has been found to be open to the Internet.
+  description:
+    "A cloud storage bucket (e.g. S3) potentially related to the target
+    has been found to be open to the Internet.
 
-    As the buckets in this case are based on name-matching, verification
-    for actual association with the target is necessary.
+    As the buckets in this case are based on name-matching, verification for actual
+    association with the target is necessary."
   risk: LOW
 collections:
   - collect:

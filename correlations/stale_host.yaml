@@ -1,12 +1,15 @@
 id: stale_host
+category: Infrastructure Risks
+subcategory: Hosting
 version: 1
 meta:
   name: Stale host found
-  description: >
-    A host appears to be stale based upon various indicators such
-    as unsuccessful HTTP codes, expired SSL certificates, error
-    messages, vulnerabilities and junk files found. Such hosts
-    may be unmaintained, exposing the target to security risks.
+  description:
+    "A host appears to be stale based upon various indicators such as unsuccessful
+    HTTP codes, expired SSL certificates, error messages, vulnerabilities and junk
+    files found. Such hosts may be unmaintained, exposing the target to security risks.
+
+    "
   risk: HIGH
 collections:
   - collect:
@@ -40,9 +43,6 @@ aggregation:
 analysis:
   - method: threshold
     field: type
-    # Avoid multiple of the same type triggering. This means
-    # a minimum of 3 of different types must appear in one
-    # bucket.
     count_unique_only: true
     minimum: 3
 headline: "Potentially stale/unmaintained host: {entity.data}"

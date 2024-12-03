@@ -1,15 +1,17 @@
 id: outlier_cloud
+category: Infrastructure Risks
+subcategory: Hosting
 version: 1
 meta:
   name: Outlier Cloud provider
-  description: >
-    A cloud provider that appeared in 10% or less of the
-    total providers found. Outliers can often reveal
-    entities that are rare and therefore interesting.
+  description:
+    "A cloud provider that appeared in 10% or less of the total providers
+    found. Outliers can often reveal entities that are rare and therefore interesting.
 
-    Particularly in the case of cloud providers, an outlier
-    may be an indicator of Shadow IT or unmtaintained
-    infrastructure.
+    Particularly in the case of cloud providers, an outlier may be an indicator of
+    Shadow IT or unmtaintained infrastructure.
+
+    "
   risk: MEDIUM
 collections:
   - collect:

@@ -1,15 +1,17 @@
 id: outlier_webserver
+category: Web and Application Risks
+subcategory: Web Risks
 version: 1
 meta:
   name: Outlier web server
-  description: >
-    A web server that appeared in 10% or less of the
-    total web servers found. Outliers can often reveal
-    entities that are rare and therefore interesting.
+  description:
+    "A web server that appeared in 10% or less of the total web servers
+    found. Outliers can often reveal entities that are rare and therefore interesting.
 
-    Particularly in the case of web servers, an outlier
-    may be an indicator of Shadow IT or unmtaintained
-    infrastructure.
+    Particularly in the case of web servers, an outlier may be an indicator of Shadow
+    IT or unmtaintained infrastructure.
+
+    "
   risk: MEDIUM
 collections:
   - collect:

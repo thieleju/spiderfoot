@@ -1,11 +1,14 @@
 id: outlier_hostname
+category: Infrastructure Risks
+subcategory: Hosting
 version: 1
 meta:
   name: Outlier hostname
-  description: >
-    A hostname that appeared in 10% or less of the
-    total hostnames found. Outliers can often reveal
-    entities that are rare and therefore interesting.
+  description:
+    "A hostname that appeared in 10% or less of the total hostnames found.
+    Outliers can often reveal entities that are rare and therefore interesting.
+
+    "
   risk: INFO
 collections:
   - collect:

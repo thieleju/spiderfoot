@@ -1,13 +1,17 @@
 id: strong_similardomain_crossref
+category: Malicious Activity and Blacklisting
+subcategory: Affiliate Risks
 version: 1
 meta:
   name: Similar domain with strong relationship to the target
-  description: >
-    A similar domain was found to be referenced by the target, and
-    references back, indicating a strong relationship.
+  description:
+    "A similar domain was found to be referenced by the target, and references
+    back, indicating a strong relationship.
 
-    Strong affiliates indicate potential targets that should be
-    included in the scope of scanning to ensure more complete coverage.
+    Strong affiliates indicate potential targets that should be included in the scope
+    of scanning to ensure more complete coverage.
+
+    "
   risk: INFO
 collections:
   - collect:

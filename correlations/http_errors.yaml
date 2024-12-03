@@ -1,11 +1,14 @@
 id: http_errors
+category: Web and Application Risks
+subcategory: Web Risks
 version: 1
 meta:
   name: Multiple HTTP errors found
-  description: >
-    Non-successful HTTP error codes were encountered. 401 and 403
-    are not included as these refer to authentication/authorization
-    failures.
+  description:
+    "Non-successful HTTP error codes were encountered. 401 and 403 are
+    not included as these refer to authentication/authorization failures.
+
+    "
   risk: LOW
 collections:
   - collect:
@@ -15,7 +18,6 @@ collections:
       - method: regex
         field: data
         value: ^[4-9].*$
-      # Leave out authentication/authorization failures
       - method: regex
         field: data
         value: not 40[13]
@@ -25,4 +27,4 @@ analysis:
   - method: threshold
     minimum: 2
     field: data
-headline: "Multiple failure HTTP codes found at {entity.data}"
+headline: Multiple failure HTTP codes found at {entity.data}

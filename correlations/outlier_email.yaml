@@ -1,11 +1,14 @@
 id: outlier_email
+category: Anomalies and Contextual Insights
+subcategory: Outliers
 version: 1
 meta:
   name: Outlier email address found
-  description: >
-    An email address that appeared in 10% or less of the
-    total email addresses found. Outliers can often reveal
-    entities that are rare and therefore interesting.
+  description:
+    "An email address that appeared in 10% or less of the total email addresses
+    found. Outliers can often reveal entities that are rare and therefore interesting.
+
+    "
   risk: INFO
 collections:
   - collect:

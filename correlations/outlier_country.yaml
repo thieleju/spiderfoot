@@ -1,11 +1,14 @@
 id: outlier_country
+category: Anomalies and Contextual Insights
+subcategory: Outliers
 version: 1
 meta:
   name: Outlier country
-  description: >
-    A country that appeared in 10% or less of the total countries
-    found. Outliers can often reveal entities that are rare and
-    therefore interesting.
+  description:
+    "A country that appeared in 10% or less of the total countries found.
+    Outliers can often reveal entities that are rare and therefore interesting.
+
+    "
   risk: INFO
 collections:
   - collect:

@@ -1,11 +1,14 @@
 id: open_port_version
+category: Infrastructure Risks
+subcategory: Network Issues
 version: 1
 meta:
   name: Open TCP port reveals version
-  description: >
-    A possible software version has been revealed on an open port. Such
-    information may reveal the use of old/unpatched software used by
-    the target.
+  description:
+    "A possible software version has been revealed on an open port. Such
+    information may reveal the use of old/unpatched software used by the target.
+
+    "
   risk: INFO
 collections:
   - collect:

@@ -1,10 +1,12 @@
 id: data_from_base64
+category: Sensitive Data Exposure
+subcategory: Data Leaks
 version: 1
 meta:
   name: Data was found within base64-encoded data
-  description: >
-    Possibly interesting data was found within base64-encoded data,
-    such as software versions, names, email addresses and hostnames.
+  description:
+    "Possibly interesting data was found within base64-encoded data, such
+    as software versions, names, email addresses and hostnames."
   risk: INFO
 collections:
   - collect:

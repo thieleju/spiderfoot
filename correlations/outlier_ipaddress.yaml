@@ -1,11 +1,14 @@
 id: outlier_ipaddress
+category: Anomalies and Contextual Insights
+subcategory: Outliers
 version: 1
 meta:
   name: Outlier IP address
-  description: >
-    An IP address that appeared in 10% or less of the
-    total IP addresses found. Outliers can often reveal
-    entities that are rare and therefore interesting.
+  description:
+    "An IP address that appeared in 10% or less of the total IP addresses
+    found. Outliers can often reveal entities that are rare and therefore interesting.
+
+    "
   risk: INFO
 collections:
   - collect:
