@@ -1,5 +1,5 @@
 id: dns_zone_transfer_possible
-category: Infrastructure Risks
+category: Infrastructure Concerns
 subcategory: Network Issues
 version: 1
 meta:

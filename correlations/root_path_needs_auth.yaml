@@ -1,6 +1,6 @@
 id: root_path_needs_auth
-category: Web and Application Risks
-subcategory: Web Risks
+category: Web and Application Concerns
+subcategory: Web Concerns
 version: 1
 meta:
   name: Website root path needs authentication

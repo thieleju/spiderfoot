@@ -1,6 +1,6 @@
 id: strong_affiliate_certs
 category: Malicious Activity and Blacklisting
-subcategory: Affiliate Risks
+subcategory: Affiliate Concerns
 version: 1
 meta:
   name: Affiliated host/domain with strong relationship to the target

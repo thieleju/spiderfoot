@@ -1,6 +1,6 @@
 id: cloud_bucket_open
-category: Infrastructure Risks
-subcategory: Cloud Risks
+category: Infrastructure Concerns
+subcategory: Cloud Concerns
 version: 1
 meta:
   name: Cloud storage bucket open to the Internet
