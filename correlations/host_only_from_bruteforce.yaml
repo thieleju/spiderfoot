@@ -1,4 +1,6 @@
 id: host_only_from_bruteforce
+category: Sensitive Data Exposure
+subcategory: Data Leaks
 version: 1
 meta:
   name: Host only from bruteforcing
