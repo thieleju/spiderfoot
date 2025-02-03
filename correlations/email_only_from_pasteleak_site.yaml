@@ -1,6 +1,6 @@
 id: email_only_from_pasteleak_site
-category: Sensitive Data Exposure
-subcategory: Data Leaks
+category: Credential & Data Exposure
+subcategory: Leaked Information
 version: 1
 meta:
   name: Email address only from paste/leak site

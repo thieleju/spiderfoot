@@ -1,6 +1,6 @@
 id: host_only_from_certificatetransparency
-category: Sensitive Data Exposure
-subcategory: SSL/TLS
+category: SSL & Web Security Issues
+subcategory: Certificate Issues
 version: 1
 meta:
   name: Hostname only from certificate transparency

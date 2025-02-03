@@ -1,6 +1,6 @@
 id: multiple_malicious
-category: Malicious Activity and Blacklisting
-subcategory: Malware
+category: Vulnerabilities & Malicious Associations
+subcategory: Malicious Activity
 version: 1
 meta:
   name:

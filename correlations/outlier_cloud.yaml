@@ -1,6 +1,6 @@
 id: outlier_cloud
-category: Infrastructure Concerns
-subcategory: Hosting
+category: Network & Infrastructure Exposure
+subcategory: Misconfigured Hosts
 version: 1
 meta:
   name: Outlier Cloud provider

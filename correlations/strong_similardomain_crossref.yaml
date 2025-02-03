@@ -1,6 +1,6 @@
 id: strong_similardomain_crossref
-category: Malicious Activity and Blacklisting
-subcategory: Affiliate Concerns
+category: Vulnerabilities & Malicious Associations
+subcategory: Affiliation & Similarities
 version: 1
 meta:
   name: Similar domain with strong relationship to the target

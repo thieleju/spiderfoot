@@ -1,6 +1,6 @@
 id: cloud_bucket_open_related
-category: Infrastructure Concerns
-subcategory: Cloud Concerns
+category: Network & Infrastructure Exposure
+subcategory: Exposed Services
 version: 1
 meta:
   name: Possibly related cloud storage bucket open to the Internet

@@ -1,6 +1,6 @@
 id: outlier_email
-category: Anomalies and Contextual Insights
-subcategory: Outliers
+category: Outliers & Anomalies
+subcategory: Email & IP Anomalies
 version: 1
 meta:
   name: Outlier email address found

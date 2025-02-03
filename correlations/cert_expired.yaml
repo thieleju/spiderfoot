@@ -1,13 +1,13 @@
 id: cert_expired
-category: Sensitive Data Exposure
-subcategory: SSL/TLS
+category: SSL & Web Security Issues
+subcategory: Certificate Issues
 version: 1
 meta:
   name: Expired SSL certificate found
   description:
-    "A host was found with an expired SSL certificate. This may pose a
-    risk to the security of the service exposed and/or cause connecting services to
-    fail due to being unable to verify the certificate."
+    A host was found with an expired SSL certificate. This may pose a risk
+    to the security of the service exposed and/or cause connecting services to fail
+    due to being unable to verify the certificate.
   risk: MEDIUM
 collections:
   - collect:

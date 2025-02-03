@@ -1,9 +1,9 @@
 id: email_in_multiple_breaches
-category: Sensitive Data Exposure
-subcategory: Data Leaks
+category: Credential & Data Exposure
+subcategory: Leaked Information
 version: 1
 meta:
-  name: "An email address was reported to be in multiple breaches"
+  name: An email address was reported to be in multiple breaches
   description: "An email address was reported to be in multiple breaches.
 
     The presence in multiple breaches may indicate that the password of the account

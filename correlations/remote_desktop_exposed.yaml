@@ -1,6 +1,6 @@
 id: remote_desktop_exposed
-category: Infrastructure Concerns
-subcategory: Network Issues
+category: Network & Infrastructure Exposure
+subcategory: Exposed Services
 version: 1
 meta:
   name: Remote desktop technology found exposed to the Internet

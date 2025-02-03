@@ -1,6 +1,6 @@
 id: internal_host
-category: Infrastructure Concerns
-subcategory: Network Issues
+category: Network & Infrastructure Exposure
+subcategory: Misconfigured Hosts
 version: 1
 meta:
   name: A host resolving to unroutable IPs was found

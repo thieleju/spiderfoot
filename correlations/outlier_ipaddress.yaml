@@ -1,6 +1,6 @@
 id: outlier_ipaddress
-category: Anomalies and Contextual Insights
-subcategory: Outliers
+category: Outliers & Anomalies
+subcategory: Geolocation & Registrar
 version: 1
 meta:
   name: Outlier IP address

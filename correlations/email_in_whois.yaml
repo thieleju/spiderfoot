@@ -1,6 +1,6 @@
 id: email_in_whois
-category: Sensitive Data Exposure
-subcategory: Data Leaks
+category: Credential & Data Exposure
+subcategory: Whois & Metadata
 version: 1
 meta:
   name: A target-relevant email address was found in Whois data

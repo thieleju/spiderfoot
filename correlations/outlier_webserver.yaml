@@ -1,6 +1,6 @@
 id: outlier_webserver
-category: Web and Application Concerns
-subcategory: Web Concerns
+category: SSL & Web Security Issues
+subcategory: Web Server & Access Issues
 version: 1
 meta:
   name: Outlier web server

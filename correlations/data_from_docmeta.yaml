@@ -1,12 +1,12 @@
 id: data_from_docmeta
-category: Sensitive Data Exposure
-subcategory: Data Leaks
+category: Credential & Data Exposure
+subcategory: Whois & Metadata
 version: 1
 meta:
   name: Data was found within document/image meta data
   description:
-    "Possibly interesting data was found within document/image meta data,
-    such as software versions, names, email addresses and hostnames."
+    Possibly interesting data was found within document/image meta data,
+    such as software versions, names, email addresses and hostnames.
   risk: INFO
 collections:
   - collect:
